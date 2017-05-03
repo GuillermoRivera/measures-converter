@@ -21,6 +21,7 @@ import converter from 'measures-converter'
 
 converter(1, 'kilograms') // 2.20462
 converter(1, 'kilos') // 2.20462
+converter(1, 'pounds') //0.45359
 ```
 
 ## Credits
