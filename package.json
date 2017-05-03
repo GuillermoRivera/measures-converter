@@ -1,0 +1,26 @@
+{
+  "name": "measures-converter",
+  "version": "0.1.0",
+  "description": "This is a little module created from Platzi's challenge that says create a module that converts weight measures from kilograms to pounds or pounds to kilograms",
+  "main": "dist/src/converter.js",
+  "scripts": {
+    "build": "babel src/converter.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoRivera/measures-converter.git"
+  },
+  "keywords": [
+    "measures",
+    "weight",
+    "kilograms",
+    "pounds"
+  ],
+  "author": "Juan Guillermo Rivera Orozco <guillerivera32@gmail.com> (https://www.twitter.com/guillerivera325)",
+  "license": "MIT",
+  "homepage": "https://github.com/GuillermoRivera/measures-converter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}
