@@ -5,7 +5,8 @@ measures-converter is a little module that allow us to convert weight measures f
 ## Description
 
 - You could not enter a negative value
-- You can enter any weight number and the return value will be the equivalent in kilograms or in pounds, it has a limit of 1'000.000 or 2'204.622,62 pounds
+- You only can enter kilograms or pounds
+- The measure must be a number
 
 ## Installation
 
@@ -13,12 +14,13 @@ measures-converter is a little module that allow us to convert weight measures f
 npm install measures-converter
 ```
 
-## Implementation
+## Usage
 
 ```
 import converter from 'measures-converter'
 
-converter(1) // 2.20462
+converter(1, 'kilograms') // 2.20462
+converter(1, 'kilos') // 2.20462
 ```
 
 ## Credits
